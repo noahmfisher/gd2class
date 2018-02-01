@@ -1,0 +1,27 @@
+* {
+  font-family: sans-serif;
+}
+
+.container {
+    background-color: #CCC;
+    padding: 0px;
+    margin: auto;
+    width: 80%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  font-style: italic;
+  color:#CCC;
+  font-size: 1.2em;
+  text-shadow: 2px 2px 0px #000;
+}
+
+a:hover {
+  color:#CCC;
+  text-shadow: 2px 2px 0px Purple;
+}
