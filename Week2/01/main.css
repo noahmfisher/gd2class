@@ -17,12 +17,12 @@ h1, h2, h3, h4, h5, h6 {
 a {
   text-decoration: none;
   font-style: italic;
-  color:#CCC;
+  color:#FFF;
   font-size: 1.2em;
   text-shadow: 2px 2px 0px #000;
 }
 
 a:hover {
-  color:#CCC;
+  color:#FFF;
   text-shadow: 2px 2px 0px Purple;
 }
