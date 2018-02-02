@@ -1,5 +1,5 @@
 * {
-  font-family: 'Crimson Text', serif;
+  font-family: serif;
 }
 
 body {
@@ -11,6 +11,7 @@ header {
   max-width:100%;
   height:90vh;
   margin:0px;
+  margin-left:20%;
   padding:10vh;
 }
 
@@ -34,6 +35,7 @@ header h4 {
 .title {
   color:#FFF;
   margin:0px;
+  text-shadow: 0px 0px 2px #b2cfff;
 }
 
 .infop, .infoc {
@@ -41,6 +43,7 @@ header h4 {
   color:#FFF;
   font-style: Italic;
   position:absolute;
+  margin-left:20%;
 }
 
 .infop {
@@ -62,23 +65,32 @@ main {
   max-width: 80vw;
   margin:auto;
   margin-top:20px;
+  margin-left:20%;
+  padding:10%;
 }
 
-main h1, h2, h3, h4, h5, h6 {
-  margin-bottom:10px;
+table h4 {
+
 }
 
 a {
   text-decoration: none;
   font-style: italic;
-  color:#FFF;
   font-size: 1.2em;
-  text-shadow: 0px 0px 1px #000;
+  border: 1px solid;
+  color: grey;
+  padding:.3em;
+  transition:300ms;
+}
+
+a:hover {
+  background-color:coral;
+  color:white;
 }
 
 .pagenum {
   position: absolute;
-  right: 10vw;
+  right: 4%;
   display:inline-block;
   text-indent: 0em;
   text-align: right;
@@ -89,17 +101,28 @@ a {
   letter-spacing: normal;
   line-height: normal;
   color: #acacac;
-  border: 1px solid #acacac;
   background: #ffffff;
   padding: 1px 2px;
 }
 
-table {
-  width:80%;
-  margin:auto
+.navigation {
+  position: fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  background-color: #FFF;
+  overflow-y: hidden;
+  width: 20%;
+  padding: 1em;
+  transform: translateX(-80%);
+  transition:300ms;
 }
 
-.tdr {
-  margin:0px;
+.navigation a {
   text-align: right;
+}
+
+.navigation:hover{
+  transform: translateX(0%);
+  overflow-y: scroll;
 }
